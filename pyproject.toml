@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "jdol-celery-utils"
+version = "0.1.0"
+description = "Celery utilities for Jojees DevOps Lab"
+authors = ["Jojees <joji@jojees.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+celery = "^5.3.6"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.8.2"
+setuptools = "^69.1.1"
+wheel = "^0.42.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

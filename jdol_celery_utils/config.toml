@@ -1,0 +1,15 @@
+queue_name = "general_queue"
+
+[broker]
+protocol = "amqp"
+servername = "rabbitmq"
+port = 5672
+username = "guest"
+password = "guest"
+
+[result_backend]
+protocol = "rpc"
+servername = "rabbitmq"
+port = 5672
+username = "guest"
+password = "guest"
