@@ -5,6 +5,25 @@ description = "Celery utilities for Jojees DevOps Lab"
 authors = ["Jojees <joji@jojees.net>"]
 license = "MIT"
 readme = "README.md"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Celery",
+    "Framework :: Pytest",
+    "Topic :: Documentation :: Sphinx",
+    "Topic :: System :: Distributed Computing",
+    "Intended Audience :: Education",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS",
+    "Natural Language :: English"
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
